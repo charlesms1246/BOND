@@ -12,10 +12,23 @@
 
 <h1 align='center'>PROBLEM STATEMENTS</h1>
 
+## Build a full Application using 1inch APIs ⸺ $30,000
+
+1inch offers a variety of REST APIs that make building onchain applications simpler. Create a full dApp using as many 1inch APIs as possible.
+
+**Example integration points:**
+- Add swap functionality with one of our swap protocols (1inch Cross-chain Swap (Fusion+), Intent-based Swap (Fusion), Classic Swap, or Limit Order protocol)
+- Source onchain data using our data APIs (price feeds API, wallet balances API, token metadata API, and many more)
+- Post transactions our Web3 API to interact with the blockchain
+
+**Qualification Requirements:**
+- Application should use 1inch API as much as possible
+- Consistent commit history should be in the GitHub project. No low or single-commit entries allowed!
+
 ## Expand Limit Order Protocol ⸺ $65,000
 1inch Limit Order Protocol is an onchain orderbook that can be extended to do much more. Build advanced strategies and hooks for the 1inch Limit Order Protocol like options, concentrated liquidity, TWAP swaps, etc.
 
-**Qualification Requirements**
+**Qualification Requirements:**
 Requirements:
 - Onchain execution of strategy should be presented during the final demo
 - Custom Limit Orders should not be posted to official Limit Order API
@@ -24,10 +37,10 @@ Requirements:
 **Stretch goals (not hard requirements):**
 - UI
 
-## Extend Fusion+ to Sui ⸺ $32,000
+## <s>Extend Fusion+ to Sui ⸺ $32,000 
 Build a novel extension for 1inch Cross-chain Swap (Fusion+) that enables swaps between Ethereum and Sui.
 
-**Qualification Requirements**
+**Qualification Requirements:**
 - Preserve hashlock and timelock functionality for the non-EVM implementation
 - Swap functionality should be bidirectional (swaps should be possible to and from Ethereum)
 - Onchain (mainnet or testnet) execution of token transfers should be presented during the final demo
@@ -35,7 +48,7 @@ Build a novel extension for 1inch Cross-chain Swap (Fusion+) that enables swaps 
 **Stretch goals (not hard requirements):**
 - UI
 - Enable partial fills
-- Relayer and resolver
+- Relayer and resolver </s>
 
 <h1 align='center'>REQ. LINKS</h1>
 In order to successfully complete this project, the following are the essential links.
@@ -47,6 +60,10 @@ Template: https://github.com/ZumZoom/solidity-template
 
 Hardhat : https://hardhat.org/tutorial
 ## 1inch API Docs
+
+1inch API: https://portal.1inch.dev/documentation/overview
+
+
 Fusion+: https://portal.1inch.dev/documentation/apis/swap/fusion-plus/introduction
 
 Fusion+ Test: https://portal.1inch.dev/documentation/becoming-a-resolver/fusion-plus-test-examples
