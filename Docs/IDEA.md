@@ -1,5 +1,6 @@
 <h1 align='center'>THE IDEA</h1>
 <br>
+
 <br>
 <br>
 <h4 align='center'>Still Thinking...</h4>
@@ -8,6 +9,34 @@
 <br>
 <br>
 <br>
+
+<h1 align='center'>PROBLEM STATEMENTS</h1>
+
+## Expand Limit Order Protocol ⸺ $65,000
+1inch Limit Order Protocol is an onchain orderbook that can be extended to do much more. Build advanced strategies and hooks for the 1inch Limit Order Protocol like options, concentrated liquidity, TWAP swaps, etc.
+
+**Qualification Requirements**
+Requirements:
+- Onchain execution of strategy should be presented during the final demo
+- Custom Limit Orders should not be posted to official Limit Order API
+- Consistent commit history should be in the GitHub project. No low or single-commit entries allowed!
+
+**Stretch goals (not hard requirements):**
+- UI
+
+## Extend Fusion+ to Sui ⸺ $32,000
+Build a novel extension for 1inch Cross-chain Swap (Fusion+) that enables swaps between Ethereum and Sui.
+
+**Qualification Requirements**
+- Preserve hashlock and timelock functionality for the non-EVM implementation
+- Swap functionality should be bidirectional (swaps should be possible to and from Ethereum)
+- Onchain (mainnet or testnet) execution of token transfers should be presented during the final demo
+
+**Stretch goals (not hard requirements):**
+- UI
+- Enable partial fills
+- Relayer and resolver
+
 <h1 align='center'>REQ. LINKS</h1>
 In order to successfully complete this project, the following are the essential links.
 
