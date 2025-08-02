@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --bg-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F001%2F760%2F936%2Flarge_2x%2Fdark-blue-pattern-with-curves-vector.jpg&f=1&nofb=1&ipt=14661992d1aeed04c295335236443cb829584063f66a097dbd1cdfece651182b&ipo=images');
+  }
+}
+
+
+
+/* Swirl Background Effect */
+.swirl-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+  z-index: -1;
+}
+
+.swirl-container canvas {
+  width: 100%;
+  height: 100%;
+  background: var(--bg-image);
+  background-size: 120%; /* Slightly larger for movement room */
+  filter: url('#swirl') brightness(5.0) contrast(1.0);
+  background-repeat: repeat;
+  /* No animation here, we'll do it via JavaScript */
+  transform-origin: center center;
+  transition: background-position 0.1s linear; /* Smooth position changes */
+}
+
+.swirl-svg {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+/* Make text visible on dark background */
+.text-light {
+  color: white;
+}
