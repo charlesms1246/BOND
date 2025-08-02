@@ -1,14 +1,31 @@
 <h1 align='center'>THE IDEA</h1>
 <br>
 
-<br>
-<br>
-<h4 align='center'>Still Thinking...</h4>
-<br>
-<br>
-<br>
-<br>
-<br>
+Name: **Bond**
+
+Track: **Extend Limit Order Protocol**
+
+The base idea is to implement features of the real world stock market into Web3 trading using the 1inch Limit Order Protocol and other API's, while making it as simple as possible for the people who are new to the Web3 platform
+
+The expected outcome is as follows
+1. Implement a API wrapper around Limit Order protocol and Orderbook API for the following:
+    1. Stop Loss
+    2. Take Profit
+    3. Time/hour limited orders
+    4. Trailing Stop Order
+    5. Stop-limit order
+    6. Trailing buy order 
+2. Use Chart API to view live chart info on the site
+3. Use Balance API to view wallet balance of the use
+4. Use History API for transaction History
+
+For Debugging: Traces API
+
+Tech Stack:
+1. Node JS
+2. Express JS
+3. React JS
+4. TypeScript
 
 <h1 align='center'>PROBLEM STATEMENTS</h1>
 
